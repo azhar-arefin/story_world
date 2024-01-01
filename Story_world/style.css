@@ -1,0 +1,93 @@
+#navbg{
+    background-color:rgba(0, 0, 0, 0.92);
+    height: 46px;
+}
+
+@media only screen and (max-width: 900px) {
+    #navbg {
+        height: 200px;
+        text-align: center;
+        padding: 5px;
+    }
+  }
+  
+/* login*/
+
+.login-container {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 280px;
+    background-color: #e2aeae;
+    height: 400px;
+    width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .login-container {
+        margin-left: -10px;
+
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    .searcha {
+        margin-top: 50px;  
+    }
+  }
+@media only screen and (max-width: 900px) {
+    .contents {
+        margin-top: 220px;
+        
+    }
+  }
+@media only screen and (max-width: 900px) {
+    .creats {
+        margin-top: 250px;
+        
+    }
+  }
+
+
+
+
+
+.head_text{
+    color: rgb(219, 28, 108);
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center ;
+}
+
+label{
+    font-weight: 50px;
+}
+.input-container{
+    font-size: 30px;
+}
+
+.buttons {
+    background-color: #013f7e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+   background-color: #001831;
+}
+.buttons a{
+    text-decoration:none;
+}
+ul>li a{
+    border: 4px solid #0dcaf0;
+    
+}
+ul>li a:hover{
+    background-color: #17a2b8;
+
+}
+
